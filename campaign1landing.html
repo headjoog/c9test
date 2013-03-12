@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>First Page</title>
+        <title>Campaign Landing Page</title>
+
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         
@@ -18,29 +19,15 @@
                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
 
-        </script>
+        </script>        
         
     </head>
     <body>
-        <h1>Hello world!</h1>
-        <p class="tagline"></p>
-        
-        <a href="http://www.example.com/specSheet.pdf" 
-            onclick="_gaq.push(['_trackEvent', 'Donations', 'Downloaded Form', 'opt_label', opt_value]);">
-            Download the PDF Form</a>
-        
-        <br>
-        <br>
-        
-        <a href="kitviewer.html" onclick="_gaq.push(['_trackPageView', 'kitviewer.html']);">
-        View Kit the Fox</a>
-        
-        <br><br>
-        
-        <button onclick="_gaq.push(['_trackEvent', 'Donations', 'Clicked Donate'])">Donate!</button>
+        <h2>Campaign 1 Landing Page</h2>
+   
+        <a href="" 
+            onclick="_gaq.push(['_trackEvent', 'Campaign 1', 'Landing Page', 'opt_label', opt_value]);">
+            Here's your CTA.  Click here.</a>        
 
-
-
- 
     </body>
 </html>
